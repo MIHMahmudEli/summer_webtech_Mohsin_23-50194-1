@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Reservation Form</title>
+</head>
+<body>
+
+    <h1>Tour Reservation Form</h1>
+    <p>Let us know what you are interested to see!</p>
+
+    <form action="#" method="post">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstName" id="firstname" required>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastName" id="lastname" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone"><br><br>
+
+        <label for="date">When are you planning to visit?</label>
+        <input type="date" name="visitDate" id="date"><br><br>
+
+        <label for="count">How many people are in your group?</label>
+        <input type="number" name="groupCount" id="count" min="1"><br><br>
+
+        <p>Which hours or events are you most interested in?</p>
+        <input type="checkbox" name="event" value="Morning Tour" id="morning">
+        <label for="morning">Morning Tour</label><br>
+
+        <input type="checkbox" name="event" value="Afternoon Tour" id="afternoon">
+        <label for="afternoon">Afternoon Tour</label><br>
+
+        <input type="checkbox" name="event" value="Evening Show" id="evening">
+        <label for="evening">Evening Show</label><br><br>
+
+        <p>What is the best way to contact you?</p>
+        <input type="radio" name="tourType" value="Historical" id="historical">
+        <label for="historical">Phone</label><br>
+
+        <input type="radio" name="tourType" value="Nature" id="nature">
+        <label for="nature">Email</label><br>
+
+        <input type="radio" name="tourType" value="Adventure" id="adventure">
+        <label for="adventure">Either</label><br><br>
+
+        <label for="transport">if phone, when is the besst time of the day for a call-back?</label>
+        <select name="transport" id="transport">
+            <option value="8-11 am">8-11 am</option>
+            <option value="12-4 pm">12-4 pm</option>
+            <option value="6-10 pm">6-10 pm</option>
+        </select><br><br>
+
+        <label for="comments">Anything else we should know:</label><br>
+        <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Type here..."></textarea><br><br>
+
+        <label for="comments2">And last, how did you hear about us?</label><br>
+        <textarea name="comments2" id="comments2" rows="4" cols="50" placeholder="Type here..."></textarea><br><br>
+
+        <input type="submit" value="Submit Reservation">
+        <input type="reset" value="Reset Form">
+    </form>
+
+</body>
+</html>
