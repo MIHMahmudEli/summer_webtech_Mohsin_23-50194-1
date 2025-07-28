@@ -1,5 +1,14 @@
 header {
     color: #1a73e8; /* color#1 */
+    background-color: lightpink;
+}
+
+p {
+background-color: lightskyblue;
+}
+
+span{
+    background-color: lightgreen;
 }
 
 
