@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab4.css">
+</head>
+<body>
+    <!-- problem 1: Counter -->
+    <div>
+        <h2>Counter: <span id="count">0</span></h2>
+        <button id="incrementButton">Increment</button>
+        <button id="decrementButon">Decrement</button>
+    </div>
+
+    <!-- problem 2: BMI Calculator -->
+    <div>
+        <h2>BMI Calculator</h2>
+        <input type="text" id="weight" placeholder="Weight (kg)">
+        <input type="text" id="height" placeholder="height (m)">
+        <button id="Calculate">Calculate</button>
+        <p id="bmiResult"></p>
+    </div>
+
+    <!-- problem 3: Color Changer -->
+    <div>
+        <h2>Color Changer</h2>
+        <div id="colorBox"></div><br>
+        <input type="color" id="colorPicker">
+        <button id="changeColorButton">Change Color</button>
+    </div>
+
+    <!-- problem 4: Form Validation -->
+    <form action="from">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password"><br>
+        <label for="conPass">Confirm Password:</label>
+        <input type="password" id="confirmPassword" placeholder="Confirm your password"><br>
+        <button type="submit" id="submitForm">Submit</button>
+    </form>
+
+    <script src="lab4Script.js"></script>
+</body>
+</html>
